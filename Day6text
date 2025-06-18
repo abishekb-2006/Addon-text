@@ -1,0 +1,90 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using KG College of Arts and Science Mail with screen readers
+
+2 of 458
+Fwd: notes
+Inbox
+
+Nithin Ramasamy
+Attachments
+9:16 AM (20 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:52 AM
+Subject: Fwd: notes
+To: <2326ja35@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:48 AM
+Subject: Fwd: notes
+To: <2326ja33@kgcas.com>, <2326ja61@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Vinoth Kumaresan <2326ja57@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:49 AM
+Subject: Fwd: notes
+To: <2326JA34@kgcas.com>, <2326ja56@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Sanjith Araviyndhan <2326jb39@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:34 AM
+Subject: notes
+To: <2326ja57@kgcas.com>
+
+
+
+
+ 16 Attachments
+  •  Scanned by Gmail
+Thread:
+*thread is a light weight process to allow the single process to run on core.
+*use to run multiple block of codes simultaneously.
+--------------------------------------------------------------------
+MultiThreading:
+*it is a thread which executes multiple number of process.
+MultiTasking:
+*used to execute multiple process in API.
+--------------------------------------------------------------------------
+Thread safe:
+*vector
+*HashTable
+---------------------------------------------------------------------------
+2 ways to create a thread in java:
+1)Thread class to extend.
+2)Runnable interface to implement.
+---------------------------------------------------------------------------
+Methods:
+1)start
+2)run
+3)sleep(ms)
+4)join
+5)isalive
+6)interrupted
+7)setpriority(priority no)
+------------------------------------------------------------------------------
+Stages of thread:
+1)new
+2)runnable-ready to run but waiting for cpu time
+3)running-run
+4)blocked or waiting
+5)terminated-incomplety solved or completely executed
+-----------------------------------------------------------------------------
+TreeSet,Queue and TreeMap does not allow null values
+day6.txt
+Displaying day6.txt.
