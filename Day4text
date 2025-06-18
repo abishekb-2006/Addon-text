@@ -1,0 +1,168 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using KG College of Arts and Science Mail with screen readers
+
+2 of 458
+Fwd: notes
+Inbox
+
+Nithin Ramasamy
+Attachments
+9:16 AM (19 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:52 AM
+Subject: Fwd: notes
+To: <2326ja35@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:48 AM
+Subject: Fwd: notes
+To: <2326ja33@kgcas.com>, <2326ja61@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Vinoth Kumaresan <2326ja57@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:49 AM
+Subject: Fwd: notes
+To: <2326JA34@kgcas.com>, <2326ja56@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Sanjith Araviyndhan <2326jb39@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:34 AM
+Subject: notes
+To: <2326ja57@kgcas.com>
+
+
+
+
+ 16 Attachments
+  •  Scanned by Gmail
+Packages - Classes and interfaces(basically a folder)
+OOPS:
+Object Oriented Programming
+1)Classes
+2)Objects - instance of class
+*State
+*Behaviour
+*Identity
+-----------------------------------------------------------
+Standard Library - inbuilt libraries Ex:util,map
+
+Public final(can't overwrite) class
+------------------------------------------------------
+OOPS Concept:
+1)Class
+2)Objects
+
+ Pillars of OOPS:(AEIP)
+
+3)Abstraction
+4)Encapsulation
+5)Inheritance
+6)Polymorphism
+--------------------------------------------------
+Abstraction:
+* Hiding the datas
+KEYWORDS:
+1)Abstract - Before the class keyword
+2)Interface- Instead of class keyword
+-----------------------------------------------------
+Creating a Abstract class:
+
+package oops;
+
+public class AbstractClass {
+	void buySoap() {
+		
+	}
+	void buyPerfume() {
+		
+	}
+}
+Abstract class will have only head not the body
+ex:abstract void buysoap();
+It also support normal methods:
+ex:void buyperfume(){
+            
+}
+----------------------------------------------------------
+Diff between abstract and normal:
+
+package oops;
+
+public abstract class AbstractClass {
+	abstract void buySoap();
+	int buyPerfume() {
+		int amt=100;
+		String name="Park Avenue";
+		int productCost=150;
+		int balance=amt-productCost;
+		return balance;
+		
+	}
+}
+-------------------------------------------------------------
+Interface will only hold the abstract method
+
+public interface AbstractInterface {
+	abstract void buyDress();
+}
+--------------------------------------------------------------
+*Can create a class inside a interface and can create a interface inside a class
+----------------------------------------------------------------
+Encapsulation:
+
+*wrapping of datas into a single unit
+Definition:
+It is a concept to wrap the properties and functionality into a single unit
+
+Two Methods:
+1)getter
+2)setter
+
+Setter:
+public void setEmail(String email) {
+		this.email=email;
+	}
+.this - access the propoerties of same class
+-------------------------------------------------------------------
+Getter:
+public String getEmail() {
+		return email;
+	}
+*only want to return the property
+------------------------------------------------------------------
+Inheritance:
+1)parent class
+2)child class
+KEYWORDS:
+1)extends-combines two classes
+TYPES:
+Single
+Multiple-not allowed
+Multilevel
+Hybrid-not allowed in java
+Hierarchical
+-----------------------------------------------------------------------------
+Polymorphism:
+poly(many)morphism(shapes)
+Method overriding:One Class,a method can be redefined many times
+Method overloading:define muthiple methods with same name but different parameters
+-----------------------------------------------------------------------
+day4.txt
+Displaying day4.txt.
