@@ -1,0 +1,91 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using KG College of Arts and Science Mail with screen readers
+
+2 of 458
+Fwd: notes
+Inbox
+
+Nithin Ramasamy
+Attachments
+9:16 AM (20 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:52 AM
+Subject: Fwd: notes
+To: <2326ja35@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:48 AM
+Subject: Fwd: notes
+To: <2326ja33@kgcas.com>, <2326ja61@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Vinoth Kumaresan <2326ja57@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:49 AM
+Subject: Fwd: notes
+To: <2326JA34@kgcas.com>, <2326ja56@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Sanjith Araviyndhan <2326jb39@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:34 AM
+Subject: notes
+To: <2326ja57@kgcas.com>
+
+
+
+
+ 16 Attachments
+  •  Scanned by Gmail
+MethodOverride:
+*Two classes with same method.
+*it has a abstract method(data hide) void run().It is a inbuilt method
+*@Override-annotation.it have meta data.
+*.start()-start a thread to run simultaneously.
+*.start() is available only in Thread class.
+Thread tc1=new Thread(tc);
+		tc1.start();
+*void run() did not execute simultaneiusly.
+------------------------------------------------------------------------------------
+DeadLock:
+*methods of two process allocated alternatively.So it still in the running state and did not execute.
+-------------------------------------------------------------------------------------
+.sleep()
+*in waiting stage in given milliseconds
+try {
+			Thread.sleep(4000);  //milliseconds between output
+		}
+		catch(Exception e) {
+			e.printStackTrace(); // stores the value and print after the sleep
+		}
+
+------------------------------------------------------------------------------------------------------------------------
+.join()-entered only in main method.
+*used to hold the data or statement and print it at the end.
+*Should be wrapped with try catch block.
+
+try {
+			tc1.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Program Completed");
+
+------------------------------------------------------------------------------------
+day7.txt
+Displaying day7.txt.
