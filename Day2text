@@ -1,0 +1,199 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using KG College of Arts and Science Mail with screen readers
+
+2 of 458
+Fwd: notes
+Inbox
+
+Nithin Ramasamy
+Attachments
+9:16 AM (17 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:52 AM
+Subject: Fwd: notes
+To: <2326ja35@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:48 AM
+Subject: Fwd: notes
+To: <2326ja33@kgcas.com>, <2326ja61@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Vinoth Kumaresan <2326ja57@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:49 AM
+Subject: Fwd: notes
+To: <2326JA34@kgcas.com>, <2326ja56@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Sanjith Araviyndhan <2326jb39@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:34 AM
+Subject: notes
+To: <2326ja57@kgcas.com>
+
+
+
+
+ 16 Attachments
+  •  Scanned by Gmail
+1)jdk,jre &jvm
+2)classes &objects
+3)1D arrays
+4)2D arrays
+5)string buffer
+6)string builder
+
+-------------------------------------------------------------------------
+Sum of array program:
+class Main {
+    public static void main(String[] args) {
+       int arr[] = {1,2,3,4,5,6};
+       int sum=0;
+       for(int i=0;i<arr.length;i++)
+       {
+           sum+=arr[i];           
+       }
+       System.out.println(sum);
+}
+}
+
+Output:
+21
+-------------------------------------------------------
+Using Scanner:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+       System.out.println("Enter the Size:");
+       int n=in.nextInt();
+       int sum=0;
+       int[] arr=new int[n];
+        System.out.println("Enter the value:");
+       for(int i=0;i<n;i++)
+       {
+         arr[i]=in.nextInt();
+         sum+=arr[i];
+       }
+       System.out.println(sum);
+}
+}
+
+Output:
+Enter the Size:
+5
+Enter the value:
+1
+2
+3
+4
+5
+15
+---------------------------------------------------------
+Find odd or even using array
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+       System.out.println("Enter the Size:");
+       int n=in.nextInt();
+       int[] arr=new int[n];
+        System.out.println("Enter the value:");
+       for(int i=0;i<n;i++)
+       {
+         arr[i]=in.nextInt();
+         if(arr[i]%2==0)
+         {
+             System.out.println("The Even numbers are:"+arr[i]);
+         }
+         else
+         {
+             System.out.println("The odd numbers are:"+arr[i]);
+         }
+       }
+}
+}
+
+Output:
+Enter the Size:
+5
+Enter the value:
+1 2 3 4 5
+The odd numbers are:1
+The Even numbers are:2
+The odd numbers are:3
+The Even numbers are:4
+The odd numbers are:5
+------------------------------------------------------------
+2D array using scanner
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        // int arr[][]=new int[row][col];
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter the rows:");
+        int row=in.nextInt();
+        System.out.println("Enter the column:");
+        int col=in.nextInt();
+        for(int i=0;i<row;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                System.out.print(i+","+j+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+Output:
+Enter the rows:
+4
+Enter the column:
+5
+0,0 0,1 0,2 0,3 0,4 
+1,0 1,1 1,2 1,3 1,4 
+2,0 2,1 2,2 2,3 2,4 
+3,0 3,1 3,2 3,3 3,4 
+---------------------------------------------------------------------
+
+STRING METHODS
+1).equals(Checks values in the string & won't consider the memory location of the string)
+2).charAt
+3).split
+---------------------------------------------------------
+Reverse a Given String:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+      String str="I Love Zoho";
+      String str1[]=str.split(" ");
+      System.out.println(str1[0]);
+      for(int i=str1.length-1;i>=0;i--)
+      {
+          System.out.print(str1[i]+" ");
+      }
+    }
+}
+
+Output:
+I
+Zoho Love I 
+day2.txt
+Displaying day2.txt.
