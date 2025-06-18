@@ -1,0 +1,152 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using KG College of Arts and Science Mail with screen readers
+
+2 of 458
+Fwd: notes
+Inbox
+
+Nithin Ramasamy
+Attachments
+9:16 AM (21 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:52 AM
+Subject: Fwd: notes
+To: <2326ja35@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Nithin Ramasamy <2326ja34@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:48 AM
+Subject: Fwd: notes
+To: <2326ja33@kgcas.com>, <2326ja61@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Vinoth Kumaresan <2326ja57@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:49 AM
+Subject: Fwd: notes
+To: <2326JA34@kgcas.com>, <2326ja56@kgcas.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Sanjith Araviyndhan <2326jb39@kgcas.com>
+Date: Tue, Jun 17, 2025 at 11:34 AM
+Subject: notes
+To: <2326ja57@kgcas.com>
+
+
+
+
+ 16 Attachments
+  •  Scanned by Gmail
+DCL:
+*grant	
+	*allows specific users to access
+
+SYNTAX:
+grant privilege_name on object_name
+to {user_name | public | role_name} 
+
+*revoke:
+	*withdraw user privileges on database objects if any granted.
+
+SYNTAX:
+revoke privilege_name on object_name
+from {user_name | public | role_name}
+
+--------------------------------------------------------------------------------------
+
+NoSQL:
+* No Structured Query Language
+*files are stored in JSON(JavaScript Object Notation) format
+
+EX:
+*mongodb
+* Cassandra,
+* Redis
+
+-------------------------------------------------------------------------------------------
+
+Database Designing:
+*it is a process of creating detailed data model of a database
+*it involves structuring data logically and efficiently
+
+-----------------------------------------------------------------------------------
+
+Key Concepts in DBMS:
+
+*Requirment Analysis
+*Conceptual design(ER Diagram)\
+*Logical design(diagram converts into sql table)
+*Normalisation-used to avoid duplications.(meter-1nf,2nf,3nf)
+*Physical Design
+
+Normalisation Main Purpose:
+*Data Integration
+*Reduce duplication
+*Increase Security
+*Scalability
+
+Definition of  Normalisation:
+*It is a process of organising data in a database
+
+1nf:
+Rules:
+*)Each column should contain Atomic Values
+*)No repeating groups 
+
+2nf:
+Rules:
+*should meet the requirements of 1nf
+*No partial dependency
+
+3nf:
+Rules:
+*should meet the requirements of 2nf
+*no transitive dependcy
+
+-------------------------------------------------------------------------------------
+MySQL Clauses:
+*where
+EX:
+select * from table_name where column_name=value;
+
+*use column_name instead of * to get a particular value.*refers to everything
+
+*order by
+EX:
+Ascending Order:
+select * from table_name order by column_name;
+
+Descending Order:
+select * from table_name order by column_name desc;
+
+*limit
+select * from table_name limit (number);
+
+*offset
+*to view the balance or ignore the top datas
+
+SYNTAX:
+select * from table_name limit (value) offset (value);
+
+*distinct
+*ignore the duplications
+
+SYNTAX:
+select distinct column_name from table_name;
+day9.txt
+Displaying day9.txt.
